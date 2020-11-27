@@ -1,0 +1,407 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🐻 黑熊网络 - 努力且上进，自律且自由。</title><meta name="description"><meta name="author" content="🐻 黑熊"><meta name="copyright" content="🐻 黑熊"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/heixiongwl/heixiong/1.jpg"><link rel="canonical" href="https://heixiongwl.com/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><meta property="og:type" content="website"><meta property="og:title" content="🐻 黑熊网络"><meta property="og:url" content="https://heixiongwl.com/page/2/"><meta property="og:site_name" content="🐻 黑熊网络"><meta property="og:description"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/heixiongwl/heixiong/1.jpg"><meta property="article:published_time" content="2020-11-27T13:24:09.570Z"><meta property="article:modified_time" content="2020-11-27T13:24:09.570Z"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.0.2',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime: '天',
+  date_suffix: {"one_hour":"刚刚","hours":"小时前","day":"天前"},
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+    },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2020-11-27 21:24:09'
+}</script><noscript><style type="text/css">
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+  }
+}
+
+var autoChangeMode = 'false'
+var t = saveToLocal.get('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (saveToLocal.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="🐻 黑熊网络" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiong/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">16</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">31</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">🐻 黑熊网络</a></span><span id="menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site_title">🐻 黑熊网络</h1><div id="site_subtitle"><span id="subtitle"></span></div></div><div id="scroll_down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/posts/4defe07c.html" title="Debug&amp;基础练习">     <img class="post_bg" src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/2020/09/090307.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Debug&amp;基础练习"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/4defe07c.html" title="Debug&amp;基础练习">Debug&amp;基础练习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-09-02T16:21:15.000Z" title="发表于 2020-09-03 00:21:15">2020-09-03</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Debug/">Debug</a></span></div><div class="content">Debug模式什么是Debug模式【理解】是供程序员使用的程序调试工具，它可以用于查看程序的执行流程，也可以用于追踪程序执行过程来调试程序。
+Debug模式操作流程【应用】
+如何加断点
+
+选择要设置断点的代码行，在行号的区域后面单击鼠标左键即可
+
+
+
+如何运行加了断点的程序
+
+在代码区域右键Debug执行
+
+
+
+看哪里
+
+看Debugger窗口
+
+
+
+看Console窗口
+
+
+
+点哪里
+
+点Step Into (F7)这个箭头，也可以直接按F7
+
+
+
+如何删除断点
+
+选择要删除的断点，单击鼠标左键即可
+
+
+
+如果是多个断点，可以每一个再点击一次。也可以一次性全部删除
+
+
+
+
+基础练习减肥计划if版本【应用】案例需求​    输入星期数，显示今天的减肥活动​          周一：跑步​          周二：游泳​          周三：慢走​          周四：动感单车​          周五：拳击​          周六：爬山​          周日：好好吃一顿
+代码实现12345678910111213141516171819202122232425262728 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/posts/ad01bc3e.html" title="方法">     <img class="post_bg" src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/ffcc-yysjlx.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="方法"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/ad01bc3e.html" title="方法">方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-09-02T08:26:11.000Z" title="发表于 2020-09-02 16:26:11">2020-09-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%96%B9%E6%B3%95/">方法</a></span></div><div class="content">方法概述方法的概念（理解）​    方法（method）是将具有独立功能的代码块组织成为一个整体，使其具有特殊功能的代码集
+
+注意：
+方法必须先创建才可以使用，该过程成为方法定义
+方法创建后并不是直接可以运行的，需要手动使用后，才执行，该过程成为方法调用
+
+
+
+方法的定义和调用无参数方法定义和调用（掌握）
+定义格式：
+123public static void 方法名 (   ) &#123;    // 方法体;&#125;
+
+范例：
+123public static void method (    ) &#123;    // 方法体;&#125;
+
+调用格式：
+1方法名();
+
+范例：
+1method();
+
+注意：
+​    方法必须先定义，后调用，否则程序将报错
+
+
+方法调用过程图解（理解）
+
+总结：每个方法在被调用执行的时候，都会进入栈内存，并且拥有自己独立的内存空间，方法内部代码调用完毕之后，会从栈内存中弹栈消失。
+
+无参数方法的练习（应用）
+需求：设计一个方法用于打印两个数中的较大数 
+思路：
+①定义一个方法，用于打印两个数字中的较大数，例如getMax() 
+②方法 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/posts/340249a9.html" title="数组">     <img class="post_bg" src="https://qqpublic.qpic.cn/qq_public/0/0-3099643963-933F1ABCBE89EECBA9B90FAC9F1808D0/" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数组"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/340249a9.html" title="数组">数组</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-09-01T13:52:45.000Z" title="发表于 2020-09-01 21:52:45">2020-09-01</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E7%BB%84/">数组</a></span></div><div class="content">什么是数组【理解】​    数组就是存储数据长度固定的容器，存储多个数据的数据类型要一致。 
+数组定义格式【记忆】第一种​    数据类型[] 数组名
+​    示例：
+123int[] arr;        double[] arr;      char[] arr;
+
+第二种​    数据类型 数组名[]
+​    示例：
+123int arr[];double arr[];char arr[];
+
+数组动态初始化【应用】什么是动态初始化​    数组动态初始化就是只给定数组的长度，由系统给出默认初始化值
+动态初始化格式1数据类型[] 数组名 = new 数据类型[数组长度];
+
+1int[] arr = new int[3];
+
+动态初始化格式详解
+等号左边：
+
+int:数组的数据类型
+
+[]:代表这是一个数组
+
+arr:代表数组的名称
+
+
+
+等号右边：
+
+new:为数组开辟内存空间
+
+int:数组的数据类型
+
+[]:代表这是一个数组
+
+5:代表数组的长度
+
+
+
+
+数组元素访问【应用】什么是索引​    每一个存储到数组的元素，都会自动的拥有一个编号，从0开始。
+​    这个 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/posts/7d584cc.html" title="switch&amp;循环语句">     <img class="post_bg" src="https://qqpublic.qpic.cn/qq_public/0/0-3099643963-933F1ABCBE89EECBA9B90FAC9F1808D0/" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="switch&amp;循环语句"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/7d584cc.html" title="switch&amp;循环语句">switch&amp;循环语句</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-31T14:39:22.000Z" title="发表于 2020-08-31 22:39:22">2020-08-31</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/switch/">switch</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/for/">for</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/while/">while</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Random/">Random</a></span></div><div class="content">switch语句switch语句结构（掌握）
+格式
+123456789101112switch (表达式) &#123;    case 1:        语句体1;        break;    case 2:        语句体2;        break;    ...    default:        语句体n+1;        break;&#125;
+
+执行流程：
+
+首先计算出表达式的值 
+其次，和case依次比较，一旦有对应的值，就会执行相应的语句，在执行的过程中，遇到break就会结 束。 
+最后，如果所有的case都和表达式的值不匹配，就会执行default语句体部分，然后程序结束掉。 
+
+
+
+switch语句练习-春夏秋冬（应用）
+需求：一年有12个月，分属于春夏秋冬4个季节，键盘录入一个月份，请用程序实现判断该月份属于哪个季节，并输出。 
+运行结果：
+
+1234春：3、4、5夏：6、7、8秋：9、10、11冬：1、2、12
+
+
+示例代码：
+
+123456789101112131415161718192021222324252627282930313 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/posts/bb48a15a.html" title="Java基础语法-2">     <img class="post_bg" src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/1545616667104.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java基础语法-2"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/bb48a15a.html" title="Java基础语法-2">Java基础语法-2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-30T06:43:23.000Z" title="发表于 2020-08-30 14:43:23">2020-08-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">Java基础语法</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E8%BF%90%E7%AE%97%E7%AC%A6/">运算符</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5/">数据输入</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/">流程控制语句</a></span></div><div class="content">运算符算术运算符（理解）运算符和表达式运算符：对常量或者变量进行操作的符号
+表达式：用运算符把常量或者变量连接起来符合java语法的式子就可以称为表达式。
+​                    不同运算符连接的表达式体现的是不同类型的表达式。
+举例说明：
+123int a = 10;int b = 20;int c = a + b;
+
+  +：是运算符，并且是算术运算符。
+  a + b：是表达式，由于+是算术运算符，所以这个表达式叫算术表达式。
+算术运算符
+
+
+符号
+作用
+说明
+
+
+
++
+加
+参看小学一年级
+
+
+-
+减
+参看小学一年级
+
+
+*
+乘
+参看小学二年级，与“×”相同
+
+
+/
+除
+参看小学二年级，与“÷”相同
+
+
+%
+取余
+获取的是两个数据做除法的余数
+
+
+注意：
+/和%的区别：两个数据做除法，/取结果的商，%取结果的余数。
+整数操作只能得到整数，要想得到小数，必须有浮点数参与运算。
+1234int a = 10;int b = 3;System.out.println(a / b); // 输出结果3System.out.println(a % b); // 输出结果1 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/posts/2241f0e0.html" title="Java基础语法-1">     <img class="post_bg" src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/%E5%9B%BE%E7%89%871.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java基础语法-1"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/2241f0e0.html" title="Java基础语法-1">Java基础语法-1</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-30T00:16:45.000Z" title="发表于 2020-08-30 08:16:45">2020-08-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">Java基础语法</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%B3%A8%E9%87%8A/">注释</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%85%B3%E9%94%AE%E5%AD%97/">关键字</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%B8%B8%E9%87%8F/">常量</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">数据类型</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%8F%98%E9%87%8F/">变量</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%A0%87%E8%AF%86%E7%AC%A6/">标识符</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/">类型转换</a></span></div><div class="content">注释（理解）注释是对代码的解释和说明文字，可以提高程序的可读性，因此在程序中添加必要的注释文字十分重要。Java中的注释分为三种：
+单行注释。单行注释的格式是使用//，从//开始至本行结尾的文字将作为注释文字。
+1// 这是单行注释文字
+
+多行注释。多行注释的格式是使用/* 和 */将一段较长的注释括起来。
+123456/*这是多行注释文字这是多行注释文字这是多行注释文字*/注意：多行注释不能嵌套使用。
+
+文档注释。文档注释以/**开始，以*/结束。（以后讲）
+关键字（理解）关键字是指被java语言赋予了特殊含义的单词。
+关键字的特点：
+​    关键字的字母全部小写。
+​    常用的代码编辑器对关键字都有高亮显示，比如现在我们能看到的public、class、static等。
+常量（应用）常量：在程序运行过程中，其值不可以发生改变的量。
+Java中的常量分类：
+​    字符串常量  用双引号括起来的多个字符（可以包含0个、一个或多个），例如”a”、”abc”、”中国”等
+​    整数常量  整数，例如：-10、0、88等
+​    小数常量  小数，例如：-5.5、1.0、88 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiong/1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">🐻 黑熊</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length_num">16</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length_num">31</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length_num">1</div></a></div></div><a class="button--animated" id="card-info-btn" href="mailto:admin@heixiongwl.com"><i class="fas fa-envelope"></i><span>Contact Me</span></a></div></div><div class="sticky_layout"><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/f133ecea.html" title="集合-3"><img src="https://qqpublic.qpic.cn/qq_public/0/0-3099643963-933F1ABCBE89EECBA9B90FAC9F1808D0/" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="集合-3"/></a><div class="content"><a class="title" href="/posts/f133ecea.html" title="集合-3">集合-3</a><time datetime="2020-11-27T13:20:40.000Z" title="发表于 2020-11-27 21:20:40">2020-11-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/8634dc7c.html" title="集合-2"><img src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/2020/11/jh/01-2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="集合-2"/></a><div class="content"><a class="title" href="/posts/8634dc7c.html" title="集合-2">集合-2</a><time datetime="2020-11-27T13:12:20.000Z" title="发表于 2020-11-27 21:12:20">2020-11-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/1f3d8dc6.html" title="集合-1"><img src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/2020/11/jh/01-1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="集合-1"/></a><div class="content"><a class="title" href="/posts/1f3d8dc6.html" title="集合-1">集合-1</a><time datetime="2020-11-27T13:07:49.000Z" title="发表于 2020-11-27 21:07:49">2020-11-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/5972219b.html" title="常用API&amp;异常"><img src="https://cdn.jsdelivr.net/gh/heixiongwl/heixiongwl.github.io/images/2020/11/cyapi-yc/01.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常用API&amp;异常"/></a><div class="content"><a class="title" href="/posts/5972219b.html" title="常用API&amp;异常">常用API&amp;异常</a><time datetime="2020-11-27T13:03:28.000Z" title="发表于 2020-11-27 21:03:28">2020-11-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/e9356d34.html" title="内部类&amp;API"><img src="https://qqpublic.qpic.cn/qq_public/0/0-3099643963-933F1ABCBE89EECBA9B90FAC9F1808D0/" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="内部类&amp;API"/></a><div class="content"><a class="title" href="/posts/e9356d34.html" title="内部类&amp;API">内部类&amp;API</a><time datetime="2020-11-27T13:00:29.000Z" title="发表于 2020-11-27 21:00:29">2020-11-27</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Java/"><span class="card-category-list-name">Java</span><span class="card-category-list-count">16</span></a></li>
+            
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/API/" style="font-size: 1.37em; color: #99a4b2">API</a> <a href="/tags/ArrayList/" style="font-size: 1.1em; color: #999">ArrayList</a> <a href="/tags/Debug/" style="font-size: 1.1em; color: #999">Debug</a> <a href="/tags/Java/" style="font-size: 1.5em; color: #99a9bf">Java</a> <a href="/tags/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" style="font-size: 1.23em; color: #999ea6">Java基础语法</a> <a href="/tags/Random/" style="font-size: 1.1em; color: #999">Random</a> <a href="/tags/for/" style="font-size: 1.1em; color: #999">for</a> <a href="/tags/switch/" style="font-size: 1.1em; color: #999">switch</a> <a href="/tags/while/" style="font-size: 1.1em; color: #999">while</a> <a href="/tags/%E4%BF%AE%E9%A5%B0%E7%AC%A6/" style="font-size: 1.1em; color: #999">修饰符</a> <a href="/tags/%E5%85%B3%E9%94%AE%E5%AD%97/" style="font-size: 1.1em; color: #999">关键字</a> <a href="/tags/%E5%86%85%E9%83%A8%E7%B1%BB/" style="font-size: 1.1em; color: #999">内部类</a> <a href="/tags/%E5%8F%98%E9%87%8F/" style="font-size: 1.1em; color: #999">变量</a> <a href="/tags/%E5%A4%9A%E6%80%81/" style="font-size: 1.1em; color: #999">多态</a> <a href="/tags/%E5%B0%81%E8%A3%85/" style="font-size: 1.1em; color: #999">封装</a> <a href="/tags/%E5%B8%B8%E9%87%8F/" style="font-size: 1.1em; color: #999">常量</a> <a href="/tags/%E5%BC%82%E5%B8%B8/" style="font-size: 1.1em; color: #999">异常</a> <a href="/tags/%E6%8A%BD%E8%B1%A1%E7%B1%BB/" style="font-size: 1.1em; color: #999">抽象类</a> <a href="/tags/%E6%8E%A5%E5%8F%A3/" style="font-size: 1.1em; color: #999">接口</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" style="font-size: 1.1em; color: #999">数据类型</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5/" style="font-size: 1.1em; color: #999">数据输入</a> <a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 1.1em; color: #999">数组</a> <a href="/tags/%E6%96%B9%E6%B3%95/" style="font-size: 1.1em; color: #999">方法</a> <a href="/tags/%E6%A0%87%E8%AF%86%E7%AC%A6/" style="font-size: 1.1em; color: #999">标识符</a> <a href="/tags/%E6%B3%A8%E9%87%8A/" style="font-size: 1.1em; color: #999">注释</a> <a href="/tags/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/" style="font-size: 1.1em; color: #999">流程控制语句</a> <a href="/tags/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" style="font-size: 1.1em; color: #999">类型转换</a> <a href="/tags/%E7%BB%A7%E6%89%BF/" style="font-size: 1.1em; color: #999">继承</a> <a href="/tags/%E8%BF%90%E7%AE%97%E7%AC%A6/" style="font-size: 1.1em; color: #999">运算符</a> <a href="/tags/%E9%9B%86%E5%90%88/" style="font-size: 1.37em; color: #99a4b2">集合</a> <a href="/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 1.1em; color: #999">面向对象</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/11/"><span class="card-archive-list-date">十一月 2020</span><span class="card-archive-list-count">10</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/09/"><span class="card-archive-list-date">九月 2020</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">16</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-08-13T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">54.9k</div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2020-11-27T13:24:09.131Z"></div></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 🐻 黑熊</div><div class="footer_custom_text">黑熊网络 版权所有</div><div class="icp"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn"><img class="icp-icon" src="/img/icp.png"/><span>陕ICP备19007269号-2</span></a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "努力且上进，自律且自由。".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '努力且上进，自律且自由。'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') subtitleType()
+  else $.getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js', subtitleType)
+} else {
+  subtitleType()
+}</script></div><script src="/js/background.js"></script><script src="/js/third-party/click_heart.js" async="async"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  'meta[name=description]',
+  '#config_change',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  $('script[data-pjax]').each(function () {
+    $(this).parent().append($(this).remove())
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+
+document.addEventListener('pjax:send', function () {
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  $(window).off('scroll')
+
+  //reset readmode
+  $('body').hasClass('read-mode') && $('body').removeClass('read-mode')
+
+})</script></div></body></html>
