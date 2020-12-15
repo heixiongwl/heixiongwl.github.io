@@ -305,14 +305,14 @@
   </url>
   
   <url>
-    <loc>https://heixiongwl.com/tags/Debug/</loc>
+    <loc>https://heixiongwl.com/tags/ArrayList/</loc>
     <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://heixiongwl.com/tags/ArrayList/</loc>
+    <loc>https://heixiongwl.com/tags/Debug/</loc>
     <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -361,13 +361,6 @@
   </url>
   
   <url>
-    <loc>https://heixiongwl.com/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
-    <lastmod>2020-12-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://heixiongwl.com/tags/%E5%86%85%E9%83%A8%E7%B1%BB/</loc>
     <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
@@ -382,7 +375,7 @@
   </url>
   
   <url>
-    <loc>https://heixiongwl.com/tags/%E5%BC%82%E5%B8%B8/</loc>
+    <loc>https://heixiongwl.com/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -404,6 +397,13 @@
   
   <url>
     <loc>https://heixiongwl.com/tags/%E6%8E%A5%E5%8F%A3/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heixiongwl.com/tags/%E5%BC%82%E5%B8%B8/</loc>
     <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
